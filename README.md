@@ -44,6 +44,14 @@ Everything is **organization-scoped**: each tenant's bots, knowledge, conversati
 
 ---
 
+## 📸 The app, running
+
+> The marketing site + product shell (`src/App.tsx`) on `localhost:3100` — animated three.js hero, live chat-demo widget, "How It Works", and the feature grid. `Sign in` leads to the Dashboard where bots are built and trained.
+
+<img src="docs/screenshots/home.png" alt="omnimind / CloudBot landing page" width="900" />
+
+---
+
 ## ✨ What's built
 
 - 📁 **Knowledge ingestion** — `pdf-parse` · `mammoth` (DOCX) · `turndown` + `cheerio` (URL → markdown) · CSV/TXT; split with `@langchain/textsplitters`.
